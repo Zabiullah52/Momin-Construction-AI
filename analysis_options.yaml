@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Project-specific adjustments can go here. Defaults from
+    # flutter_lints are a solid baseline for a production app.
+    prefer_const_constructors: true
+    avoid_print: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
